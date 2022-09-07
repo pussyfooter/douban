@@ -2,7 +2,8 @@
 
 /* 网页统一样式 */
 
-body{
+body,html{
+    width: 100%;
     font-family: Helvetica,Arial,sans-serif;
     color: #111;
     font-size: 12px;
@@ -300,6 +301,10 @@ body{
 /* 横幅区域结束 */
 
 /* 网页各板块统一样式 */
+
+.same{
+    width: 100%;
+}
 
 .same h2{
     font: 15px Arial, Helvetica, sans-serif;
