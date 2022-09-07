@@ -14,6 +14,7 @@ body{
 /* 网页顶部样式 */
 
 .top{
+    width: 100%;
     height: 34px;
     background: #EDF4EC;
     line-height: 34px;
@@ -200,6 +201,7 @@ body{
 /* 横幅区域 */
 
 .slogan{
+    width: 100%;
     background: url("../img/login_bag.jpg") no-repeat calc(50% - 305px) top/auto 100% #edf4ed;
     height: 300px;
     margin-top: 30px;
@@ -293,11 +295,6 @@ body{
     position: absolute;
     left: 30px;
     top: 205px;
-}
-
-.slogan .container .download .get-code:hover+.qr_code{
-    display: block;
-    z-index: 1;
 }
 
 /* 横幅区域结束 */
