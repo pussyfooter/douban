@@ -297,7 +297,6 @@ body{
 
 .slogan .container .download .get-code:hover+.qr_code{
     display: block;
-    position: relative;
     z-index: 1;
 }
 
