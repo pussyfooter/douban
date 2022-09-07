@@ -1,0 +1,286 @@
+@import url("./reset.css");
+
+/* 统一样式开始 */
+
+input[type="text"],
+input[type="button"],
+input[type='submit']{
+    width: 280px;
+    height: 33px;
+    border: 1px solid #E4E6E5;
+    margin-bottom: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+input[type="text"]::placeholder,
+input[type="button"]::placeholder{
+    color: #9B9B9B; 
+
+}
+
+
+/* 统一样式结束 */
+
+body{
+    font: 12px Helvetica,Arial,sans-serif #333;
+}
+
+.login{
+    width: 300px;
+    height: 296px;
+    padding: 30px 10px 10px 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.login .switch_login{
+    margin-bottom: 10px;
+}
+
+.login .switch_login>span{
+    width: 140px;
+    height: 24px;
+    font-size: 12px;
+    color: #9B9B9B; 
+    text-align: center;
+    cursor: pointer;
+}
+
+.login .switch_login>span.selected{
+    border-bottom: 1px solid #494949;
+    color: #333;
+    font-weight: 600;
+}
+
+.login .form-item-tip{
+    width: 280px;
+    height: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.login .form-item-tip p{
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+.login .form-item-tip p a{
+    color: #41ac52;
+}
+
+.login .form-item{
+    position: relative;
+}
+
+.login .form-item .phone-number{
+    padding: 8px 40px 8px 60px;   
+}
+
+.login .password-login .form-item .phone-number{
+    padding: 8px 40px 8px 10px;
+}
+
+.login .form-item .number-select{
+    position: relative;
+}
+
+.login .form-item .number-select .choose{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    top: -140px;
+    background: rgba(255, 255, 255, .5);
+    z-index: 1;
+}
+
+.login .form-item .number-select .choose .container{
+    width: 280px;
+    height: 230px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    box-sizing: border-box;
+    border: 8px solid #bbb;
+    border-radius: 12px;
+}
+
+.login .form-item .number-select .choose .container .head{
+    background: #ebf5eb;
+    height: 60px;
+    color: #060;
+    line-height: 60px;
+    padding-left: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.login .form-item .number-select .choose .container .choose-area{
+    width: 100%;
+    height: 150px;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    overflow: auto;
+    background: #fff;
+}
+
+.login .form-item .number-select .choose .container .choose-area .item{
+    padding: 10px;
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.login .form-item .number-select .choose .container .choose-area .item .area{
+    color: #494949;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.login .form-item .number-select .choose .container .choose-area .item .num{
+    color: #aaa;
+    font-size: 14px;
+}
+
+.login .form-item .number-select .choose .container .choose-area .item.selected .area,
+.login .form-item .number-select .choose .container .choose-area .item.selected .num{
+    color: #42bd56;
+}
+
+.login .form-item .number-select .choose .container .choose-area .item:last-child{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.login .form-item .number-select span{
+    position: absolute;
+    left: 10px;
+    top: -35px;
+    width: 40px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: 1px solid #dfdfdf;
+    cursor: pointer;
+}
+
+
+.login .form-item .password-pw{
+    padding: 8px 10px;
+}
+
+.login .form-item .password-tip{
+    width: 80px;
+    height: 34px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #41AC52;
+    font-size: 12px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.login .form-item .login-bt{
+    font-size: 15px;
+    color: #fff;
+    background: #41ac52;
+    cursor: pointer;
+}
+
+.login .form-item .notip{
+    width: 280px;
+    height: 35px;
+    margin-top: -10px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.login .form-item .notip a{
+    float: right;
+    margin: 10px 0;
+    color: #41AC52;
+    font-size: 12px;
+    
+}
+
+.login .other-login{
+    width: 280px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.login .other-login span{
+    color: #9B9B9B;
+    font-size: 11px;
+}
+
+
+.login .other-login img{
+    width: 22px;
+    height: 22px;
+    margin-left: 12px;
+    position: relative;
+    top: 7px;
+}
+
+.login .code_login{
+    text-align: center;
+}
+
+.login .code_login .title{
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+}
+
+.login .code_login .code_img{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login .code_login .code_img img{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+}
+
+.login .code_login .code_tip{
+    margin-top: 10px;
+    color: #494949;
+    font-size: 13px;
+    padding: 3px 10px;
+    background-color: rgba(0,0,0,0.08);
+    border-radius: 12px;
+}
+
+.login .code_login .code_tip a{
+    color: #41ac52;
+}
+
+.login .logo-code img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.login .logo-tip{
+    position: absolute;
+    right: 60px;
+    top: 0;
+    padding: 5px;
+    color: #9B9B9B;
+    border: 1px solid #989b9b;
+    border-radius: 10px;
+}
+
+.login .logo-code img:hover+.logo-tip{
+    display: block;
+}
